@@ -11,5 +11,5 @@ For more information, see:
 to run socat:
 
 ```
-docker run --expose <ports> tahaj/socat2 <args>
+docker run --expose <ports> tahaj/socat2 /usr/local/bin/socat <args>
 ```

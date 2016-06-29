@@ -12,6 +12,6 @@ RUN \
     make && \
     make install && \
     apk del build-base openssl-dev && \
-    rm -rf /root/src /var/cache/apk
+    rm -rf /src /var/cache/apk
 
-ENTRYPOINT ["socat"]
+CMD ["socat"]
